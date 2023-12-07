@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Central Perk</title>
+    <link rel="stylesheet" href="./GlobalStyles.css">
+    <link rel="stylesheet" href="./components.css">
+    <link rel="stylesheet" href="./menu.css">
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navigation Section-->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <a href="./index.html" class = "logo">
+                    <img src="images/final logo.jpg" alt="Beachville Coffee">
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            >
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav__bgOverlay"></div>
+                    <ul class="nav__list">
+                        <div class="nav__close">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class = "nav__link">Home</a></li>
+                            <li><a href="./menu.html" class = "nav__link">Menu</a></li>
+                            <li><a href="./contact.html" class = "nav__link">Contact</a></li>
+                            <li><a href="./booking.html"class = "btn primary-btn">Reserve Table</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End of Navigation-->
+    <!--page title-->
+    <section id="page__title">
+        <div class="container">
+            <h2 class="page__title__text">
+                Explore our Menu
+            </h2>
+        </div>
+    </section>
+    <!--End of page title-->
+    <!--Today's Specials-->
+    <section id="TodaySpecials">
+        <div class="container">
+            <h3 class="TodaySpecials__Title">Today's Specials</h3>
+            <div class="TodaySpecials__wrapper">
+                <div class="TodaySpecials__Items">
+                    <div class="TodaySpecials__Items__image">
+                        <img src="./images/rose latte.jpg" alt="Rose Latte">
+                    </div>
+                    <div class="TodaySpecials__Items__info">
+                        <h3 class="TodaySpecials__Items__title">
+                            Rose Latte
+                        </h3>
+                        <h4 class="TodaySpecials__Items__price">
+                            Rs. 240
+                        </h4>
+                        <h5 class="TodaySpecials__Items__des">
+                            Dairy free, sugar free and made with rose water.
+                            Tastes like a hug in a mug!
+                        </h5>
+                    </div>
+                </div>
+                <div class="TodaySpecials__Items">
+                    <div class="TodaySpecials__Items__image">
+                        <img src="./images/cheesecake.jpg" alt="cheesecake">
+                    </div>
+                    <div class="TodaySpecials__Items__info">
+                        <h3 class="TodaySpecials__Items__title">
+                            NewYork Style Blueberry Cheesecake
+                        </h3>
+                        <h4 class="TodaySpecials__Items__price">
+                            Rs. 210
+                        </h4>
+                        <h5 class="TodaySpecials__Items__des">
+                            This light and creamy cheesecake sits on top of a biscuit layer and is topped by layer of blueberries.
+                        </h5>
+                    </div>
+                </div>
+                <div class="TodaySpecials__Items">
+                    <div class="TodaySpecials__Items__image">
+                        <img src="./images/Mocha.jpg" alt="Mocha">
+                    </div>
+                    <div class="TodaySpecials__Items__info">
+                        <h3 class="TodaySpecials__Items__title">
+                            Caffè Mocha
+                        </h3>
+                        <h4 class="TodaySpecials__Items__price">
+                            Rs. 225
+                        </h4>
+                        <h5 class="TodaySpecials__Items__des">
+                            A shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Today's Specials-->
+    <!--Customer Fav-->
+    <section id="DishGrid">
+        <div class="container">
+            <h2 class="DishGrid__title">
+                Customer's Favourties
+            </h2>
+            <div class="DishGrid__wrapper">
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/caramel macchiato.jpg" alt="caramel macchiato">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Caramel Macchiato
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 250
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            An espresso-based beverage made with vanilla syrup, steamed milk and caramel sauce. 
+                            The espresso is poured on top of the milk foam, Caramel sauce is poured on top of the foam, adding a layer of sweetness.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/Tiramisu.jpg" alt="Tiramisu">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Tiramisu
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 220
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            An elegant and rich layered dessert made with delicate cookies, espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/Frappucino.jpg" alt="caramel Frappucino">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Caramel Frappucino
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 230
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A line of blended iced coffee drinks like frappe and cappuccino, an espresso coffee with frothed milk.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Hot-->
+    <section id="DishGrid">
+        <div class="container">
+            <h2 class="DishGrid__title">
+                Hot Beverages
+            </h2>
+            <div class="DishGrid__wrapper">
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/cappuccino.jpg" alt="cappuccino">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Cappucino
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 200
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A hot, frothy drink with a creamy top, milky middle, and full-bodied brew at the bottom.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/Espresso.jpg" alt="Espresso">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Espresso
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 190
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A single shot of coffee, usually served in a small demitasse cup
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/cafe latte.jpg" alt="Latte">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Caffè Latte
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 220
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A shot or two of bold, tasty espresso with fresh, sweet steamed milk over it.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Hot-->
+    <!--Cold-->
+    <section id="DishGrid">
+        <div class="container">
+            <h2 class="DishGrid__title">
+                Cold Beverages
+            </h2>
+            <div class="DishGrid__wrapper">
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/caramel macchiato.jpg" alt="caramel macchiato">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Caramel Macchiato
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 250
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            An espresso-based beverage made with vanilla syrup, steamed milk and caramel sauce. 
+                            The espresso is poured on top of the milk foam, Caramel sauce is poured on top of the foam, adding a layer of sweetness.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/cold brew.jpg" alt="Cold Brew">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Hazelnut Cold Brew
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 200
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            Made with our signature cold brew along with milk and a little bit of sugar, has sweet and nutty notes of hazelnut.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/Frappucino.jpg" alt="caramel Frappucino">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Caramel Frappucino
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 230
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A line of blended iced coffee drinks like frappe and cappuccino, an espresso coffee with frothed milk.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Cold-->
+    <!--Dessert-->
+    <section id="DishGrid">
+        <div class="container">
+            <h2 class="DishGrid__title">
+                Desserts
+            </h2>
+            <div class="DishGrid__wrapper">
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/choco eclair.jpg" alt="eclair">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Choco Eclair
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 140
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A pastry made with choux dough filled with a cream and topped with a flavored icing and chocolate sauce.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/Tiramisu.jpg" alt="Tiramisu">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                            Tiramisu
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 220
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            An elegant and rich layered dessert made with delicate cookies, espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.
+                        </h5>
+                    </div>
+                </div>
+                <div class="DishGrid__Item">
+                    <div class="DishGrid__Item__Image">
+                        <img src="./images/chocolate cinnamon roll.jpg" alt="Cinnamon Roll">
+                    </div>
+                    <div class="DishGrid__Item__Info">
+                        <h3 class="DishGrid__Item__Title">
+                           Chocolate Cinnamon Roll
+                        </h3>
+                        <h4 class="DishGrid__Item_Price">
+                            Rs. 170
+                        </h4>
+                        <h5 class="DishGrid__Item__des">
+                            A sweet baked dough filled with a cinnamon-sugar filling, topped with chocolate sauce and sugar glaze.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Dessert-->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                    <div class="footer__social">
+                        <h4 class="footer__social__title" style="text-align: center;">Follow Us</h4>
+                        <ul style="display:flex; justify-content:center;">
+                            <li>
+                                <a href="#">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text_title"style="text-align: center; ">Links</h3>
+                    <ul class="footer__text", style="list-style: none; ">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="./booking.html">Reserve Table</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text_title" style="text-align: center;">Support</h3>
+                    <ul class="footer__text", style="list-style: none;">
+                        <li>
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text_title" style="text-align: center;">Contact</h3>
+                    <ul class="footer__text", style="list-style: none;text-align: center;">
+                        <li>
+                            <a href="Ph: +8904156321">+8904156321</a>
+                        </li>
+                        <li>
+                            <a href="mailto:centralperk@gmail.com">centralperk@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#">199 Lafayette St.,Broome Street, New York</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright__text">
+                © copyright 2021 Central Perk | All rights reserved
+            </p>
+        </div>
+    </div>
+    <!--End of Footer-->
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>

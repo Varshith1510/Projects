@@ -1,0 +1,61 @@
+/* Page title styles */
+#page__title{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.page__title__text{
+    font-size: 3.6rem;
+    color: var(--black-1);
+}
+/* Today's Special Styles*/
+#TodaySpecials{
+    padding: 0;
+}
+.TodaySpecials__Title{
+    font-size: 2rem;
+    color: var(--black-1);
+    margin-bottom: 2rem;
+}
+.TodaySpecials__wrapper{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    max-width: none;
+}
+.TodaySpecials__Items{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    background-color: var(--black-1);
+    padding: 3rem;
+    border-radius: 12px;
+}
+.TodaySpecials__Items__image,.TodaySpecials__Items__info{
+    flex: 1;
+}
+.TodaySpecials__Items__image{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.TodaySpecials__Items__image img{
+    object-fit: contains;
+}
+.TodaySpecials__Items__title{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--white-1);
+    line-height: 1.2em;
+}
+.TodaySpecials__Items__price{
+    font-size: 1.4rem;
+    color: var(--white-1);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.TodaySpecials__Items__des{
+    font-size: 1.2rem;
+    font-family: Winchell;
+    color: var(--white-1);
+    font-weight: 400;
+}
