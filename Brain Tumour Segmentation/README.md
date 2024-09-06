@@ -9,10 +9,10 @@ The dataset used for this project is the BraTS (Brain Tumor Segmentation) datase
 ### Dataset Details:
 - **Image Dimensions**: 240×240×155 pixels
 - **MRI Modalities**:
-1. T1-weighted
-2. T2-weighted
-3. T1-weighted with contrast enhancement (T1CE)
-4. Fluid-attenuated inversion recovery (FLAIR)
+  1. T1-weighted
+  2. T2-weighted
+  3. T1-weighted with contrast enhancement (T1CE)
+  4. Fluid-attenuated inversion recovery (FLAIR)
 
 ## Model Architecture
 ### U-Net Architecture
@@ -22,6 +22,6 @@ The U-Net model is a CNN designed for image segmentation tasks. The network arch
 - **Skip Connections**: Captures fine-grained spatial details by connecting the encoding and decoding paths.
 - **Fully Convolutional Layer**: Processes images of any size and produces segmentation masks of the same size.
 
-## Key Features of U-Net:
+### Key Features of U-Net:
 - Symmetric architecture for efficient segmentation.
 - Ability to capture both global and local features, leading to more accurate segmentation results.
