@@ -3,13 +3,12 @@
   This repository contains a Python implementation of the Text Rank algorithm, inspired by Google's Page Rank algorithm, specifically for summarizing non-premium articles on Medium.
 
 ## Features:
-- Summarizes non-premium articles from Medium.
-- Utilizes the Text Rank algorithm for generating summaries.
+- Fetches the content of the provided Medium article.
+- Processes the text to identify the most important sentences.
+- Ranks these sentences using the Text Rank algorithm.
+- Generates a concise summary based on the highest-ranked sentences.
 
 ## How It Works:
 
-1. Fetches the content of the provided Medium article.
-2. Processes the text to identify the most important sentences.
-3. Ranks these sentences using the Text Rank algorithm.
-4. Generates a concise summary based on the highest-ranked sentences.
+
 
