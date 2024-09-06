@@ -9,10 +9,10 @@ The dataset used for this project is the BraTS (Brain Tumor Segmentation) datase
 ### Dataset Details:
 - **Image Dimensions**: 240×240×155 pixels
 - **MRI Modalities**:
-  1. T1-weighted
-  2. T2-weighted
-  3. T1-weighted with contrast enhancement (T1CE)
-  4. Fluid-attenuated inversion recovery (FLAIR)
+  - T1-weighted
+  - T2-weighted
+  - T1-weighted with contrast enhancement (T1CE)
+  - Fluid-attenuated inversion recovery (FLAIR)
 
 ## Model Architecture
 ### U-Net Architecture
