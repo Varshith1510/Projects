@@ -8,10 +8,6 @@ This project implements a content-based movie recommendation system in Python. T
 - Utilizes cosine similarity to find and rank similar movies.
 - Easy to use: Simply input a movie title, and the system provides a list of recommended movies.
 
-## Data
-
-The dataset used for this project contains information about movies such as titles, genres, and other relevant attributes. It is loaded from a CSV file (`movies.csv`), which should be placed in the root directory of the project.
-
 ## How it Works
 
 1. **Data Preparation:**
