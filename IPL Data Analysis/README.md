@@ -15,8 +15,11 @@ This project focuses on analyzing the Indian Premier League (IPL) cricket data t
 - Studied player performance (top batsmen, bowlers).
 - Examined match trends such as win percentage, toss decisions, and stadium impact.
 
-<img width="716" alt="Matches   MoM" src="https://github.com/user-attachments/assets/270861c6-3e46-4446-ad7b-e56245c53424">
-
-
 2. **Predictive Modeling:**
 - Developed models to predict match result using machine learning techniques (Decision Trees).
+
+<img width="716" alt="Matches   MoM" src="https://github.com/user-attachments/assets/270861c6-3e46-4446-ad7b-e56245c53424">
+<img width="781" alt="Seasonwise Analysis" src="https://github.com/user-attachments/assets/819ba445-f0cb-4c5b-9ad8-a5a3a46c4955">
+
+
+
