@@ -1,6 +1,6 @@
 # Article Summarization
 
-  This repository contains a Python implementation of the Text Rank algorithm, inspired by Google's Page Rank algorithm, specifically for summarizing non-premium articles on Medium. It also includes a web interface that allows users to input paragraphs and obtain summarized content directly.
+  This repository contains a Python implementation of the Text Rank algorithm, inspired by Google's Page Rank algorithm, specifically for summarizing non-premium articles on Medium.
 
 ## Features:
 - Summarizes non-premium articles from Medium.
