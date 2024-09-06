@@ -1,7 +1,6 @@
 # Brain Tumor Image Segmentation
 
 This project focuses on brain tumor segmentation using deep learning techniques. The task of segmenting brain tumors from MRI images plays a vital role in medical image analysis, enabling better diagnosis and treatment planning for patients.
-The project employs a U-Net architecture, which is a convolutional neural network (CNN) widely used for image segmentation tasks.
 
 ## Dataset Description
 The dataset used for this project is the BraTS (Brain Tumor Segmentation) dataset, available on Kaggle. The dataset includes various MRI modalities, allowing for comprehensive analysis of brain tumors.
