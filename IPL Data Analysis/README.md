@@ -12,8 +12,9 @@ This project focuses on analyzing the Indian Premier League (IPL) cricket data t
 
 1. **Exploratory Data Analysis (EDA):**
 - Analyzed team performance across seasons.
-- Studied player performance (top batsmen, bowlers, fielders).
+- Studied player performance (top batsmen, bowlers).
 - Examined match trends such as win percentage, toss decisions, and stadium impact.
+![Team Performance](Analysis Images/Seasonwise Analysis.png)
 
 2. **Predictive Modeling:**
 - Developed models to predict match result using machine learning techniques (Decision Trees).
